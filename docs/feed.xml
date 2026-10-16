@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 16 Oct 2026 14:19:54 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 14:39:05 +0000</lastBuildDate>
     <itunes:block>yes</itunes:block>
     <itunes:category text="Education">
       <itunes:category text="Language Learning"/>
@@ -16,49 +16,49 @@
     <item>
       <title>W01 · Weekly mix</title>
       <guid isPermaLink="false">https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-mix.mp3</guid>
-      <enclosure url="https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-mix.mp3" length="1566243" type="audio/mpeg"/>
-      <pubDate>Fri, 16 Oct 2026 13:24:54 +0000</pubDate>
+      <enclosure url="https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-mix.mp3" length="1481763" type="audio/mpeg"/>
+      <pubDate>Fri, 16 Oct 2026 13:44:05 +0000</pubDate>
     </item>
     <item>
       <title>W01 · Drills (gym)</title>
       <guid isPermaLink="false">https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-drills.mp3</guid>
-      <enclosure url="https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-drills.mp3" length="3199013" type="audio/mpeg"/>
-      <pubDate>Fri, 16 Oct 2026 13:23:54 +0000</pubDate>
+      <enclosure url="https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-drills.mp3" length="3268133" type="audio/mpeg"/>
+      <pubDate>Fri, 16 Oct 2026 13:43:05 +0000</pubDate>
     </item>
     <item>
       <title>W01 · Scene 4: When you don't understand</title>
       <guid isPermaLink="false">https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-s4-when-you-don-t-understand.mp3</guid>
-      <enclosure url="https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-s4-when-you-don-t-understand.mp3" length="3045627" type="audio/mpeg"/>
-      <pubDate>Fri, 16 Oct 2026 13:22:54 +0000</pubDate>
+      <enclosure url="https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-s4-when-you-don-t-understand.mp3" length="2730555" type="audio/mpeg"/>
+      <pubDate>Fri, 16 Oct 2026 13:42:05 +0000</pubDate>
     </item>
     <item>
       <title>W01 · Scene 3: At the table: food and drink</title>
       <guid isPermaLink="false">https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-s3-at-the-table-food-and-drink.mp3</guid>
-      <enclosure url="https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-s3-at-the-table-food-and-drink.mp3" length="2531262" type="audio/mpeg"/>
-      <pubDate>Fri, 16 Oct 2026 13:21:54 +0000</pubDate>
+      <enclosure url="https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-s3-at-the-table-food-and-drink.mp3" length="2499582" type="audio/mpeg"/>
+      <pubDate>Fri, 16 Oct 2026 13:41:05 +0000</pubDate>
     </item>
     <item>
       <title>W01 · Scene 2: Arriving at the family home</title>
       <guid isPermaLink="false">https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-s2-arriving-at-the-family-home.mp3</guid>
-      <enclosure url="https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-s2-arriving-at-the-family-home.mp3" length="3195197" type="audio/mpeg"/>
-      <pubDate>Fri, 16 Oct 2026 13:20:54 +0000</pubDate>
+      <enclosure url="https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-s2-arriving-at-the-family-home.mp3" length="2871293" type="audio/mpeg"/>
+      <pubDate>Fri, 16 Oct 2026 13:40:05 +0000</pubDate>
     </item>
     <item>
-      <title>W01 · Scene 1: Greetings and who I am</title>
-      <guid isPermaLink="false">https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-s1-greetings-and-who-i-am.mp3</guid>
-      <enclosure url="https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-s1-greetings-and-who-i-am.mp3" length="2763768" type="audio/mpeg"/>
-      <pubDate>Fri, 16 Oct 2026 13:19:54 +0000</pubDate>
+      <title>W01 · Scene 1: Greetings and who I am (video call with Gabi's mum)</title>
+      <guid isPermaLink="false">https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-s1-greetings-and-who-i-am-video-call-with-g.mp3</guid>
+      <enclosure url="https://wellsyyyyy99-code.github.io/pt-immersion/audio/w01-s1-greetings-and-who-i-am-video-call-with-g.mp3" length="2682389" type="audio/mpeg"/>
+      <pubDate>Fri, 16 Oct 2026 13:39:05 +0000</pubDate>
     </item>
     <item>
       <title>W00 · Weekly mix</title>
       <guid isPermaLink="false">https://wellsyyyyy99-code.github.io/pt-immersion/audio/w00-mix.mp3</guid>
-      <enclosure url="https://wellsyyyyy99-code.github.io/pt-immersion/audio/w00-mix.mp3" length="505827" type="audio/mpeg"/>
+      <enclosure url="https://wellsyyyyy99-code.github.io/pt-immersion/audio/w00-mix.mp3" length="507747" type="audio/mpeg"/>
       <pubDate>Sat, 10 Oct 2026 06:02:00 +0000</pubDate>
     </item>
     <item>
       <title>W00 · Scene 2: Sound rules 2: how letters change</title>
       <guid isPermaLink="false">https://wellsyyyyy99-code.github.io/pt-immersion/audio/w00-s2-sound-rules-2-how-letters-change.mp3</guid>
-      <enclosure url="https://wellsyyyyy99-code.github.io/pt-immersion/audio/w00-s2-sound-rules-2-how-letters-change.mp3" length="1619843" type="audio/mpeg"/>
+      <enclosure url="https://wellsyyyyy99-code.github.io/pt-immersion/audio/w00-s2-sound-rules-2-how-letters-change.mp3" length="1629635" type="audio/mpeg"/>
       <pubDate>Sat, 10 Oct 2026 06:01:00 +0000</pubDate>
     </item>
     <item>
