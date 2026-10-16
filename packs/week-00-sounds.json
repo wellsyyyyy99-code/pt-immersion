@@ -1,0 +1,42 @@
+{
+  "week": 0,
+  "scenes": [
+    {
+      "id": "S0a",
+      "title": "Sound rules 1: spoken shortcuts",
+      "speakers": ["Narrador"],
+      "lines": [
+        {"speaker": "Narrador", "pt": "Tô chegando.", "heard": "Tô chegano.", "en": "I'm on my way. (estou → tô, -ndo → -no)"},
+        {"speaker": "Narrador", "pt": "Cê tá onde?", "heard": "Cê tá ondji?", "en": "Where are you? (você → cê, está → tá)"},
+        {"speaker": "Narrador", "pt": "Vou pra academia.", "heard": "Vô pra academia.", "en": "I'm going to the gym. (para → pra)"},
+        {"speaker": "Narrador", "pt": "Não sei.", "heard": "Num sei.", "en": "I don't know. (não → num)"},
+        {"speaker": "Narrador", "pt": "Péra aí!", "heard": "Péra aí!", "en": "Hang on! (espera → péra)"},
+        {"speaker": "Narrador", "pt": "Bora?", "heard": "Bora?", "en": "Shall we go? (vamos embora → bora)"},
+        {"speaker": "Narrador", "pt": "É bom, né?", "heard": "É bom, né?", "en": "It's good, right? (não é → né)"},
+        {"speaker": "Narrador", "pt": "Eu tava cansado.", "heard": "Eu tava cansadu.", "en": "I was tired. (estava → tava)"},
+        {"speaker": "Narrador", "pt": "Deixa eu ver.", "heard": "Deixa eu vê.", "en": "Let me see. (final r dropped)"},
+        {"speaker": "Narrador", "pt": "Cê tá ligado?", "heard": "Cêtáligadu?", "en": "You know? / You get me?"}
+      ],
+      "chunks": []
+    },
+    {
+      "id": "S0b",
+      "title": "Sound rules 2: how letters change",
+      "speakers": ["Narrador"],
+      "lines": [
+        {"speaker": "Narrador", "pt": "Leite quente.", "heard": "Leitchi kentchi.", "en": "Hot milk. (te → tchi)"},
+        {"speaker": "Narrador", "pt": "Bom dia, tia!", "heard": "Bom djia, tchia!", "en": "Good morning, auntie! (di → dji, ti → tchi)"},
+        {"speaker": "Narrador", "pt": "A cidade é grande.", "heard": "A cidadji é grandji.", "en": "The city is big. (de → dji)"},
+        {"speaker": "Narrador", "pt": "Muito obrigado.", "heard": "Muitu obrigadu.", "en": "Thank you very much. (final o → u)"},
+        {"speaker": "Narrador", "pt": "Que legal!", "heard": "Ki legau!", "en": "How cool! (que → ki, final l → u)"},
+        {"speaker": "Narrador", "pt": "Brasil.", "heard": "Brasiu.", "en": "Brazil. (final l → u)"},
+        {"speaker": "Narrador", "pt": "Quer pão?", "heard": "Ké pão?", "en": "Want some bread? (nasal ão: air through the nose)"},
+        {"speaker": "Narrador", "pt": "Minha mãe.", "heard": "Minha mãinh.", "en": "My mum. (nasal ãe)"},
+        {"speaker": "Narrador", "pt": "Também tem.", "heard": "Tambeim teim.", "en": "There's that too. (nasal -em)"},
+        {"speaker": "Narrador", "pt": "Minha avó e meu avô.", "heard": "Minha avÓ i meu avÔ.", "en": "My grandma (open aw) and my grandad (closed oh)."}
+      ],
+      "chunks": []
+    }
+  ],
+  "drills": []
+}
