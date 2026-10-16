@@ -224,6 +224,45 @@ def build_deck(pack, out_path):
     return len(deck.notes)
 
 
+# ---- Transcripts ---------------------------------------------------------------------
+TCSS = """:root{--bg:#fff;--fg:#1b1b1b;--muted:#666;--heard:#7a4bb3;--card:#f5f5f7;--line:#e2e2e2}
+@media (prefers-color-scheme:dark){:root{--bg:#121212;--fg:#eee;--muted:#aaa;--heard:#c9a7f0;--card:#1e1e1e;--line:#333}}
+body{font-family:Arial,sans-serif;background:var(--bg);color:var(--fg);max-width:720px;margin:0 auto;padding:1em;line-height:1.45}
+h2{margin-top:1.6em;border-bottom:2px solid var(--line);padding-bottom:.2em}.ln{background:var(--card);border-radius:10px;padding:.6em .8em;margin:.5em 0}
+.sp{font-size:.8em;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}.pt{font-size:1.15em;font-weight:bold}
+.heard{color:var(--heard);font-style:italic}.en{color:var(--muted)}a{color:var(--heard)}
+details{margin:.4em 0}summary{cursor:pointer;color:var(--muted)}"""
+
+
+def esc(t):
+    return (t or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def write_transcript(pack):
+    w = pack["week"]
+    (DOCS / "transcripts").mkdir(exist_ok=True)
+    eps = episodes_for(pack)
+    body = [f'<p><a href="../index.html">← All weeks</a></p><h1>Week {w:02d} transcripts</h1>'
+            '<p class="en">Purple = how it actually sounds. Tap "English" to check meaning.</p>']
+    for i, s in enumerate(pack["scenes"]):
+        body.append(f'<h2 id="s{i+1}">Scene {i+1}: {esc(s["title"])}</h2>'
+                    f'<p><a href="../audio/{eps[i][0]}">▶ Play episode</a></p>')
+        for l in s["lines"]:
+            body.append(f'<div class="ln"><div class="sp">{esc(l["speaker"])}</div><div class="pt">{esc(l["pt"])}</div>'
+                        f'<div class="heard">{esc(l.get("heard"))}</div>'
+                        f'<details><summary>English</summary><div class="en">{esc(l["en"])}</div></details></div>')
+        if s.get("chunks"):
+            body.append("<h3>Key phrases</h3><ul>" + "".join(
+                f'<li><b>{esc(c["pt"])}</b> <span class="heard">({esc(c.get("heard"))})</span> = {esc(c["en"])}</li>'
+                for c in s["chunks"]) + "</ul>")
+    if pack.get("drills"):
+        body.append('<h2>Drills</h2><details><summary>Show all answers</summary><ol>' + "".join(
+            f'<li>{esc(d["en"])} → <b>{esc(d["pt"])}</b></li>' for d in pack["drills"]) + "</ol></details>")
+    (DOCS / "transcripts" / f"week-{w:02d}.html").write_text(
+        f'<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
+        f'<title>Week {w:02d}</title><style>{TCSS}</style>' + "".join(body), encoding="utf-8")
+
+
 # ---- Feed + index -----------------------------------------------------------------------
 def base_url():
     if os.getenv("PAGES_URL"):
@@ -258,7 +297,7 @@ def write_feed_and_index(packs):
     fg.podcast.itunes_block(True)
     fg.podcast.itunes_explicit("no")
     now = datetime.now(timezone.utc)
-    rows, decks = [], []
+    rows, decks, trans = [], [], []
     for pack in packs:
         w = pack["week"]
         monday = datetime(2026, 10, 19, 6, tzinfo=timezone.utc) + timedelta(days=7 * (w - 1))
@@ -270,9 +309,12 @@ def write_feed_and_index(packs):
             fe = fg.add_entry()
             fe.id(url + "audio/" + fname)
             fe.title(title)
+            fe.description(f"Transcript: {url}transcripts/week-{w:02d}.html")
             fe.enclosure(url + "audio/" + fname, str(f.stat().st_size), "audio/mpeg")
             fe.pubDate(start + timedelta(minutes=k))
             rows.append(f'<li><a href="audio/{fname}">{title}</a></li>')
+        write_transcript(pack)
+        trans.append(f'<li><a href="transcripts/week-{w:02d}.html">Week {w:02d} transcripts</a></li>')
         d = DECKS / f"week-{w:02d}.apkg"
         if d.exists():
             decks.append(f'<li><a href="decks/{d.name}">Week {w:02d} Anki deck</a></li>')
@@ -282,7 +324,7 @@ def write_feed_and_index(packs):
 <style>body{{font-family:Arial,sans-serif;max-width:680px;margin:2em auto;padding:0 1em;line-height:1.5}}
 code{{background:#eee;padding:2px 6px;border-radius:4px;word-break:break-all}}</style>
 <h1>Português SP 🇧🇷</h1><p>Podcast feed (add this URL in your podcast app):<br><code>{url}feed.xml</code></p>
-<h2>Anki decks</h2><ul>{''.join(decks)}</ul><h2>Episodes</h2><ul>{''.join(reversed(rows))}</ul>""", encoding="utf-8")
+<h2>📖 Transcripts</h2><ul>{''.join(reversed(trans))}</ul><h2>Anki decks</h2><ul>{''.join(decks)}</ul><h2>Episodes</h2><ul>{''.join(reversed(rows))}</ul>""", encoding="utf-8")
     (DOCS / ".nojekyll").write_text("")
 
 
