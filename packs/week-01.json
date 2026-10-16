@@ -3,67 +3,67 @@
   "scenes": [
     {
       "id": "S1",
-      "title": "Greetings and who I am",
-      "speakers": ["Gabi", "Irmão", "George"],
+      "title": "Greetings and who I am (video call with Gabi's mum)",
+      "speakers": ["Gabi", "Mãe", "George"],
       "lines": [
-        {"speaker": "Gabi", "pt": "Mano, esse é o George!", "heard": "Manu, essi é u George!", "en": "Bro, this is George!"},
-        {"speaker": "Irmão", "pt": "E aí, George! Tudo bem?", "heard": "Iaí, George! Tudu bein?", "en": "Hey George! How's it going?"},
-        {"speaker": "George", "pt": "Tudo, e você?", "heard": "Tudu, i você?", "en": "Good, and you?"},
-        {"speaker": "Irmão", "pt": "Tudo certo. Prazer, cara!", "heard": "Tudu certu. Prazê, cara!", "en": "All good. Nice to meet you, mate!"},
-        {"speaker": "George", "pt": "Prazer! A Gabi fala muito de você.", "heard": "Prazê! A Gabi fala muitu dji você.", "en": "Nice to meet you! Gabi talks about you a lot."},
-        {"speaker": "Irmão", "pt": "Sério? Só coisa boa, né?", "heard": "Sériu? Só coisa boa, né?", "en": "Really? Only good things, right?"},
-        {"speaker": "George", "pt": "Claro! Só coisa boa.", "heard": "Claru! Só coisa boa.", "en": "Of course! Only good things."},
-        {"speaker": "Irmão", "pt": "E aí, cê tá gostando de São Paulo?", "heard": "Iaí, cê tá gostanu dji São Paulu?", "en": "So, are you enjoying São Paulo?"},
-        {"speaker": "George", "pt": "Tô adorando! Mas tô um pouco cansado da viagem.", "heard": "Tô adoranu! Mas tô um poucu cansadu da viagein.", "en": "I'm loving it! But I'm a bit tired from the trip."},
-        {"speaker": "Irmão", "pt": "Imagina, doze horas de voo. Fica à vontade, meu!", "heard": "Imagina, doze ora dji vôu. Fica à vontadji, meu!", "en": "I can imagine, twelve hours on a plane. Make yourself at home, mate!"}
+        {"speaker": "Gabi", "pt": "Mãe, olha quem tá aqui! É o George.", "heard": "Mãinh, óia quem tá aqui! É u George.", "en": "Mum, look who's here! It's George."},
+        {"speaker": "Mãe", "pt": "Oi, George! Tudo bem?", "heard": "Oi, George! Tudu bein?", "en": "Hi George! How are you?"},
+        {"speaker": "George", "pt": "Oi! Tudo bem, e a senhora?", "heard": "Oi! Tudu bein, i a sinhora?", "en": "Hi! I'm good, and you?"},
+        {"speaker": "Mãe", "pt": "Tudo ótimo! Nossa, você tá falando português!", "heard": "Tudu ótchimu! Nóssa, cê tá falanu portuguêis!", "en": "Great! Wow, you're speaking Portuguese!"},
+        {"speaker": "George", "pt": "Tô aprendendo! Ainda falo pouco, mas tô tentando.", "heard": "Tô aprendenu! Inda falu poucu, mas tô tentanu.", "en": "I'm learning! I still don't speak much, but I'm trying."},
+        {"speaker": "Mãe", "pt": "Que lindo! A Gabi fala muito de você.", "heard": "Ki lindu! A Gabi fala muitu dji você.", "en": "That's lovely! Gabi talks about you a lot."},
+        {"speaker": "George", "pt": "Ela fala muito da senhora também!", "heard": "Ela fala muitu da sinhora tambeim!", "en": "She talks about you a lot too!"},
+        {"speaker": "Mãe", "pt": "Só coisa boa, né?", "heard": "Só coisa boa, né?", "en": "Only good things, right?"},
+        {"speaker": "George", "pt": "Claro! Tô muito animado pra conhecer a senhora.", "heard": "Claru! Tô muitu animadu pra conhecê a sinhora.", "en": "Of course! I'm really excited to meet you."},
+        {"speaker": "Mãe", "pt": "Eu também! Vem logo, viu? A casa é sua.", "heard": "Eu tambeim! Vein logu, viu? A casa é sua.", "en": "Me too! Come soon, OK? Our home is your home."}
       ],
       "chunks": [
-        {"pt": "E aí, tudo bem?", "heard": "Iaí, tudu bein?", "en": "Hey, how's it going?", "note": "Casual greeting; reply 'Tudo, e você?'"},
-        {"pt": "Prazer!", "heard": "Prazê!", "en": "Nice to meet you!", "note": "Short for 'muito prazer'"},
-        {"pt": "A Gabi fala muito de você.", "heard": "A Gabi fala muitu dji você.", "en": "Gabi talks about you a lot.", "note": "Names take an article: a Gabi, o George"},
-        {"pt": "Tô adorando!", "heard": "Tô adoranu!", "en": "I'm loving it!", "note": "estou → tô, -ndo → -no"},
-        {"pt": "Fica à vontade.", "heard": "Fica à vontadji.", "en": "Make yourself at home.", "note": "You'll hear this constantly"}
+        {"pt": "Tudo bem, e a senhora?", "heard": "Tudu bein, i a sinhora?", "en": "I'm good, and you?", "note": "Use a senhora with Gabi's mum"},
+        {"pt": "Tô aprendendo!", "heard": "Tô aprendenu!", "en": "I'm learning!", "note": "estou → tô, -ndo → -no"},
+        {"pt": "Ainda falo pouco, mas tô tentando.", "heard": "Inda falu poucu, mas tô tentanu.", "en": "I don't speak much yet, but I'm trying.", "note": "Brazilians love hearing this"},
+        {"pt": "Ela fala muito da senhora também!", "heard": "Ela fala muitu da sinhora tambeim!", "en": "She talks about you a lot too!", "note": "de + a senhora → da senhora"},
+        {"pt": "Tô muito animado pra conhecer a senhora.", "heard": "Tô muitu animadu pra conhecê a sinhora.", "en": "I'm really excited to meet you.", "note": "animado = excited (not 'animated')"}
       ]
     },
     {
       "id": "S2",
       "title": "Arriving at the family home",
-      "speakers": ["Gabi", "Mãe", "Pai", "George"],
+      "speakers": ["Gabi", "Mãe", "George"],
       "lines": [
-        {"speaker": "Gabi", "pt": "Mãe, pai, esse é o George.", "heard": "Mãinh, pai, essi é u George.", "en": "Mum, Dad, this is George."},
+        {"speaker": "Gabi", "pt": "Mãe, chegamos!", "heard": "Mãinh, chegamu!", "en": "Mum, we're here!"},
         {"speaker": "Mãe", "pt": "Oi, George! Seja bem-vindo! Entra, entra!", "heard": "Oi, George! Seja bein-vindu! Entra, entra!", "en": "Hi George! Welcome! Come in, come in!"},
         {"speaker": "George", "pt": "Oi! Muito prazer. Com licença.", "heard": "Oi! Muitu prazê. Cum licença.", "en": "Hi! Very nice to meet you. Excuse me (as I come in)."},
-        {"speaker": "Pai", "pt": "Prazer, George. Fez boa viagem?", "heard": "Prazê, George. Fez boa viagein?", "en": "Nice to meet you, George. Did you have a good trip?"},
+        {"speaker": "Mãe", "pt": "Fez boa viagem?", "heard": "Fez boa viagein?", "en": "Did you have a good trip?"},
         {"speaker": "George", "pt": "Fiz sim, obrigado. Foi longa, mas tranquila.", "heard": "Fiz sim, obrigadu. Foi longa, mas tranquila.", "en": "Yes, thanks. It was long, but easy."},
         {"speaker": "Mãe", "pt": "Que bom! Fica à vontade, a casa é sua.", "heard": "Ki bom! Fica à vontadji, a casa é sua.", "en": "Great! Make yourself at home, our house is your house."},
         {"speaker": "George", "pt": "Muito obrigado por me receber. Que casa linda!", "heard": "Muitu obrigadu pur mi recebê. Ki casa linda!", "en": "Thank you so much for having me. What a lovely house!"},
         {"speaker": "George", "pt": "Eu trouxe uma lembrancinha pra senhora.", "heard": "Eu trouxi uma lembrancinha pra sinhora.", "en": "I brought a little something for you."},
         {"speaker": "Mãe", "pt": "Ai, que gentil! Não precisava!", "heard": "Ai, ki gentiu! Num precisava!", "en": "Oh, how kind! You didn't have to!"},
-        {"speaker": "Pai", "pt": "Senta aí, George. Quer uma água, um café?", "heard": "Senta aí, George. Ké uma água, um café?", "en": "Have a seat, George. Do you want some water, a coffee?"},
+        {"speaker": "Gabi", "pt": "Senta aí, amor. Quer uma água, um café?", "heard": "Senta aí, amor. Ké uma água, um café?", "en": "Sit down, love. Do you want some water, a coffee?"},
         {"speaker": "George", "pt": "Um café, por favor.", "heard": "Um café, pur favor.", "en": "A coffee, please."}
       ],
       "chunks": [
         {"pt": "Seja bem-vindo!", "heard": "Seja bein-vindu!", "en": "Welcome!", "note": "To a woman: bem-vinda"},
         {"pt": "Com licença.", "heard": "Cum licença.", "en": "Excuse me (coming in / passing).", "note": "Say it as you step into the house"},
         {"pt": "Muito obrigado por me receber.", "heard": "Muitu obrigadu pur mi recebê.", "en": "Thank you so much for having me.", "note": "Men say obrigado, women obrigada"},
-        {"pt": "Trouxe uma lembrancinha pra senhora.", "heard": "Trouxi uma lembrancinha pra sinhora.", "en": "I brought you a little something.", "note": "Use a senhora / o senhor with her parents"},
+        {"pt": "Trouxe uma lembrancinha pra senhora.", "heard": "Trouxi uma lembrancinha pra sinhora.", "en": "I brought you a little something.", "note": "lembrancinha = small gift"},
         {"pt": "Não precisava!", "heard": "Num precisava!", "en": "You didn't have to!", "note": "Polite reaction to a gift"}
       ]
     },
     {
       "id": "S3",
       "title": "At the table: food and drink",
-      "speakers": ["Mãe", "Pai", "George"],
+      "speakers": ["Mãe", "Gabi", "George"],
       "lines": [
         {"speaker": "Mãe", "pt": "Pode se servir, George. Fiz feijoada!", "heard": "Pódi si serví, George. Fiz feijoada!", "en": "Help yourself, George. I made feijoada!"},
         {"speaker": "George", "pt": "Nossa, que cheiro bom!", "heard": "Nóssa, ki chêru bom!", "en": "Wow, that smells great!"},
-        {"speaker": "Pai", "pt": "Cê já comeu feijoada?", "heard": "Cê já comeu feijoada?", "en": "Have you had feijoada before?"},
+        {"speaker": "Gabi", "pt": "Cê já comeu feijoada?", "heard": "Cê já comeu feijoada?", "en": "Have you had feijoada before?"},
         {"speaker": "George", "pt": "Nunca comi. Tô curioso!", "heard": "Nunca comi. Tô curiozu!", "en": "Never. I'm curious!"},
         {"speaker": "Mãe", "pt": "E aí, gostou?", "heard": "Iaí, gostô?", "en": "So, do you like it?"},
         {"speaker": "George", "pt": "Tá uma delícia! A senhora que fez?", "heard": "Tá uma delícia! A sinhora ki fez?", "en": "It's delicious! Did you make it?"},
         {"speaker": "Mãe", "pt": "Fui eu, sim. Pega mais, pega mais!", "heard": "Fui eu, sim. Pega mais, pega mais!", "en": "Yes, it was me. Have more, have more!"},
         {"speaker": "George", "pt": "Obrigado, mas tô satisfeito. Tava ótimo!", "heard": "Obrigadu, mas tô satisfeitu. Tava ótchimu!", "en": "Thanks, but I'm full. It was great!"},
-        {"speaker": "Pai", "pt": "Satisfeito nada! Ainda tem sobremesa.", "heard": "Satisfeitu nada! Inda teim sobremesa.", "en": "Full? No way! There's still dessert."},
+        {"speaker": "Gabi", "pt": "Satisfeito nada! Ainda tem sobremesa.", "heard": "Satisfeitu nada! Inda teim sobremesa.", "en": "Full? No way! There's still dessert."},
         {"speaker": "George", "pt": "Ah, sobremesa sempre cabe!", "heard": "Ah, sobremesa sempri cabi!", "en": "Ah, there's always room for dessert!"}
       ],
       "chunks": [
@@ -77,17 +77,17 @@
     {
       "id": "S4",
       "title": "When you don't understand",
-      "speakers": ["Pai", "George"],
+      "speakers": ["Mãe", "Gabi", "George"],
       "lines": [
-        {"speaker": "Pai", "pt": "E aí, George, cê acompanha o Brasileirão? O Timão tá mandando bem esse ano.", "heard": "Iaí, George, cê acompanha u Brasilerão? U Timão tá mandanu bein essi anu.", "en": "So George, do you follow the Brazilian league? Corinthians are doing well this year."},
+        {"speaker": "Mãe", "pt": "Amanhã a gente pode ir na padaria cedinho e depois dar um rolê no Ibirapuera, que tal?", "heard": "Amanhã a gentchi pódi í na padaria cedinhu i dispois dá um rolê nu Ibirapuera, ki tau?", "en": "Tomorrow we could go to the bakery early and then have a wander in Ibirapuera Park, how about that?"},
         {"speaker": "George", "pt": "Desculpa, pode falar mais devagar?", "heard": "Discurpa, pódi falá mais devagá?", "en": "Sorry, can you speak more slowly?"},
-        {"speaker": "Pai", "pt": "Claro! Cê acompanha futebol brasileiro?", "heard": "Claru! Cê acompanha futchibóu brasileru?", "en": "Of course! Do you follow Brazilian football?"},
-        {"speaker": "George", "pt": "Ah, entendi! Um pouco. O que significa Timão?", "heard": "Ah, entendji! Um poucu. U ki significa Timão?", "en": "Ah, got it! A bit. What does 'Timão' mean?"},
-        {"speaker": "Pai", "pt": "É o Corinthians! O meu time.", "heard": "É u Corinthians! U meu tchimi.", "en": "It's Corinthians! My team."},
-        {"speaker": "George", "pt": "Ah, tá! E como assim, mandando bem?", "heard": "Ah, tá! I cumu assim, mandanu bein?", "en": "Ah, OK! And what do you mean, 'mandando bem'?"},
-        {"speaker": "Pai", "pt": "Quer dizer que tá jogando bem.", "heard": "Ké dizê ki tá joganu bein.", "en": "It means they're playing well."},
+        {"speaker": "Mãe", "pt": "Claro! Amanhã... padaria... depois, parque.", "heard": "Claru! Amanhã... padaria... dispois, parki.", "en": "Of course! Tomorrow... bakery... then, park."},
+        {"speaker": "George", "pt": "Ah, entendi! O que significa rolê?", "heard": "Ah, entendji! U ki significa rolê?", "en": "Ah, got it! What does 'rolê' mean?"},
+        {"speaker": "Gabi", "pt": "É dar uma volta, passear.", "heard": "É dá uma vorta, passiá.", "en": "It means going for a wander, going out."},
+        {"speaker": "George", "pt": "Ah, tá! E como assim, cedinho?", "heard": "Ah, tá! I cumu assim, cedinhu?", "en": "Ah, OK! And what do you mean, 'cedinho'?"},
+        {"speaker": "Mãe", "pt": "Quer dizer bem cedo. Umas oito horas.", "heard": "Ké dizê bein cedu. Umas oitu ora.", "en": "It means nice and early. Around eight."},
         {"speaker": "George", "pt": "Entendi. Repete, por favor? Quero aprender.", "heard": "Entendji. Repetchi, pur favor? Kéru aprendê.", "en": "Got it. Can you repeat it, please? I want to learn."},
-        {"speaker": "Pai", "pt": "Mandando bem! Isso, cê tá mandando bem no português!", "heard": "Mandanu bein! Issu, cê tá mandanu bein nu portuguêis!", "en": "Mandando bem! That's it, you're doing well in Portuguese!"}
+        {"speaker": "Mãe", "pt": "Cedinho! Isso, cê tá mandando bem no português!", "heard": "Cedinhu! Issu, cê tá mandanu bein nu portuguêis!", "en": "Cedinho! That's it, you're doing well in Portuguese!"}
       ],
       "chunks": [
         {"pt": "Pode falar mais devagar?", "heard": "Pódi falá mais devagá?", "en": "Can you speak more slowly?", "note": "Your lifeline. Use it without fear"},
@@ -99,12 +99,12 @@
     }
   ],
   "drills": [
-    {"en": "Hey, how's it going?", "pt": "E aí, tudo bem?"},
-    {"en": "Good, and you?", "pt": "Tudo, e você?"},
+    {"en": "I'm good, and you? (to Gabi's mum)", "pt": "Tudo bem, e a senhora?"},
     {"en": "Nice to meet you!", "pt": "Prazer!"},
-    {"en": "Gabi talks about you a lot.", "pt": "A Gabi fala muito de você."},
-    {"en": "I'm loving São Paulo!", "pt": "Tô adorando São Paulo!"},
-    {"en": "I'm a bit tired.", "pt": "Tô um pouco cansado."},
+    {"en": "I'm learning!", "pt": "Tô aprendendo!"},
+    {"en": "I don't speak much yet, but I'm trying.", "pt": "Ainda falo pouco, mas tô tentando."},
+    {"en": "She talks about you a lot too!", "pt": "Ela fala muito da senhora também!"},
+    {"en": "I'm really excited to meet you.", "pt": "Tô muito animado pra conhecer a senhora."},
     {"en": "Make yourself at home.", "pt": "Fica à vontade."},
     {"en": "Excuse me, coming in.", "pt": "Com licença."},
     {"en": "Thank you so much for having me.", "pt": "Muito obrigado por me receber."},
@@ -120,7 +120,7 @@
     {"en": "It was great!", "pt": "Tava ótimo!"},
     {"en": "There's always room for dessert!", "pt": "Sobremesa sempre cabe!"},
     {"en": "Sorry, can you speak more slowly?", "pt": "Desculpa, pode falar mais devagar?"},
-    {"en": "What does 'Timão' mean?", "pt": "O que significa Timão?"},
+    {"en": "What does 'rolê' mean?", "pt": "O que significa rolê?"},
     {"en": "What do you mean?", "pt": "Como assim?"},
     {"en": "Got it!", "pt": "Entendi!"},
     {"en": "Can you repeat that, please?", "pt": "Repete, por favor?"},
